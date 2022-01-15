@@ -11,7 +11,8 @@
  class Node{
      public:
      int data;
-     Node* left,right;
+     Node* left;
+     Node* right;
      Node *nextRight;
  };
 

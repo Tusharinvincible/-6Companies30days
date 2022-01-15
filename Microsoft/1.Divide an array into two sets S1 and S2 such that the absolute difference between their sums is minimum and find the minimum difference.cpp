@@ -1,5 +1,7 @@
  #include <bits/stdc++.h>
  using namespace std;
+
+ 
   int minPermutation(int n,int s,int sum,int ans,int arr[],vector <vector <int>> &dp){
       if(n==0){
           //ans=min(ans,abs(sum-2*s));
