@@ -17,6 +17,9 @@ int maxC(int i,int j,vector <int> &A,vector <vector <int>> &dp){
         
         return dp[i][j];
 }
+
+
+
 int maxCoins(vector<int>&A,int n)
     {
 	    //Write your code here
